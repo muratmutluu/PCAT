@@ -1,0 +1,27 @@
+{
+  "name": "pcat",
+  "version": "1.0.0",
+  "description": "Pcat Photo App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muratmutluu/PCAT.git"
+  },
+  "keywords": [
+    "photo",
+    "app",
+    "camera"
+  ],
+  "author": "Murat Mutlu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muratmutluu/PCAT/issues"
+  },
+  "homepage": "https://github.com/muratmutluu/PCAT#readme",
+  "devDependencies": {
+    "prettier": "2.6.2"
+  }
+}
