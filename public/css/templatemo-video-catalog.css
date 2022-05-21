@@ -171,9 +171,11 @@ h2, p { color: #666666; }
 
 .tm-btn-cta:before { font-size: 180%; }
 .tm-btn-download:before { font-size: 120%; }
+.tm-btn-trash:before { font-size: 120%; }
 .tm-btn-submit:before { font-size: 120%; }
 .tm-icon-down:before { content: '\f078'; }
 .tm-icon-download:before { content: '\f019'; }
+.tm-icon-trash:before { content: '\f1f8'; }
 .tm-icon-submit:before { content: '\f1d8'; }
 .tm-icon-submit:hover:before { top: 18px; }
 .tm-btn-cta:hover { color: white; }
@@ -186,6 +188,12 @@ h2, p { color: #666666; }
     background-color: #3399CC;
 }
 
+.tm-btn-trash:hover,
+.tm-btn-trash:focus {
+    color: white;
+    background-color: #dc3545;
+}
+.tm-btn-trash span { padding-top: 10px; }
 .tm-btn-download span { padding-top: 10px; }
 .tm-btn-small { 
     padding: 10.5px 35px;
@@ -337,6 +345,11 @@ h2, p { color: #666666; }
     width: 280px;
     height: 60px;
 }
+.tm-btn-trash {
+    width: 280px;
+    height: 60px;
+}
+
 
 .tm-likes-box { padding-top: 12px; }
 .tm-video-description-box { max-width: 920px; }
